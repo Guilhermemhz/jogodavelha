@@ -1,26 +1,21 @@
-
+# ===== Java =====
 *.class
-*.log
 *.jar
 *.war
 *.ear
-hs_err_pid*
 
-/bin/
-/out/
-/target/
+# pasta de build
+bin/
 build/
+out/
+target/
 
+# ===== VS Code =====
 .vscode/
-!.vscode/settings.json
-!.vscode/launch.json
-!.vscode/tasks.json
-!.vscode/extensions.json
 
+# ===== Sistema =====
 .DS_Store
 Thumbs.db
 
-*.tmp
-*.bak
-*.swp
-*.swo
+# ===== Logs =====
+*.log
